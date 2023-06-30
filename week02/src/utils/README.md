@@ -12,7 +12,7 @@ Install npm axios commander
 To run the application  you can use the next command:
 
 ```terminal
-npm run start
+npm start
 ```
 
 To run the application  you can use the next command:

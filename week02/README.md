@@ -1,19 +1,23 @@
-Node.js CLI
-This repository shows how to create a Node.js CLI that interacts with an API based on user input and display results .
+# Node.js HTTP Server
 
-Requirements:
-Node.js 18.16.x or greater. Install npm axios commander
+This repository shows how to create a Node.js HTTP from Scratch, implementing basic routing but trying to get the necessary functionality to show how this type of application works under the hood.
 
-Running the server
-To run the application you can use the next command:
+## Requirements:
 
-npm start
-To run the application you can use the next command:
+Node.js 18.16.x or greater.
 
-node api-cli.js
-the cli prompts then for user inputs for further steps .
+## Running the server
 
-you can the select resources from USERS or POSTS
-you can select the required action DELETE,POST,PATCH,GET
-enter values
-and done
+To run the application in production mode you can use the next command:
+
+```bash
+npm run start
+```
+
+To run the application in development mode you can use the next command:
+
+```bash
+npm run start:dev
+```
+
+Note: The application in development mode use the Node.js native watch feature to reload the application after file changes.

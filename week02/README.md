@@ -5,7 +5,8 @@
 ## Requirements:
 
 Node.js 18.16.x or greater.
-intall npm axios commander
+
+### intall npm axios commander
 
 ## Running the server
 
